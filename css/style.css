@@ -1,0 +1,643 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    width: 100%;
+}
+
+.background-color {
+    background: url(../img/background.png) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+
+
+.main-header {
+    text-align: center;
+
+    margin-bottom: 100px;
+}
+
+.red-header {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.every-day-header {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.master-class {
+    background-color: #fff;
+}
+
+.button {
+    color: #fff;
+    background-color: rgb(255, 72, 0);
+    border: 0;
+
+    padding: 15px 20px;
+
+    border-radius: 5px;
+
+    
+}
+
+.button:hover {
+    background-color: rgb(158, 45, 0);
+}
+
+.button2 {
+    margin-left: 27%;
+}
+
+
+
+
+
+
+
+
+.container {
+    background-color: #fff;
+}
+
+.section-method {
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 80px 350px;
+
+    margin-bottom: -80px;
+    padding: 5px 20px;
+}
+
+.ul-position {
+   display: flex;
+}
+
+
+
+.master-class {
+    background-color: #fff;
+}
+.master-class-div {
+    margin: 0px 350px;
+    background-color: #eee;
+    text-align: start;
+    line-height: 30px;
+
+    padding: 0px 40px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.who {
+    background-color: #fff;
+}
+
+.who-div {
+    margin: 0px 300px;
+    padding: 10px 70px;
+
+}
+
+.who-div h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.face img {
+    align-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.main-footer {
+    text-align: center;
+
+    background-image: url(../img/footer-background.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+
+
+    padding: 70px;
+}
+
+.free-webinar-footer {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.red-footer {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.every-day-footer {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+
+
+.master-class-list {
+    list-style-image:url(../img/check-mark-icon.png);
+    text-decoration: none;
+}
+
+
+.method-item1 {
+    display: flex;
+}
+
+.method-item1 img {
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.method-item2 {
+    display: flex;
+}
+
+.method-item2 img {
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.method-item3 {
+    display: flex;
+}
+
+.method-item3 img {
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+
+.who-item1 {
+    display: flex;
+}
+
+.who-item1 img {
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.who-item2 {
+    display: flex;
+}
+
+.who-item2 img {
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.who-item3 {
+    display: flex;
+}
+
+.who-item3 img {
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.cool-marketer {
+    font-size: 20px;
+
+}
+
+
+
+/*                              TABLET TABLET TABLET TABLET TABLET TABLET TABLET  TABLET TABLET TABLET TABLET TABLET               */
+
+
+
+
+@media (max-width: 1200px) {
+
+       
+.background-color {
+    background: url(../img/background-mobile.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+    .free-webinar {
+        font-size: 35px;
+        line-height: 70px;
+    }
+
+    .red-header {
+        font-size: 60px;
+        line-height: 120px;
+        text-align: center;
+
+        margin-top: -30px;
+    }
+
+    .every-day-header {
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+
+    .master-class {
+        background-color: #fff;
+    }
+
+
+    .button {
+        color: #fff;
+        background-color: rgb(255, 72, 0);
+        border: 0;
+
+        padding: 30px 20px;
+
+        font-size: 35px;
+        border-radius: 5px;
+
+        
+    }
+
+    .button:hover {
+        background-color: rgb(158, 45, 0);
+    }
+
+    .button2 {
+        align-content: center;
+
+        margin-left: 100px;
+    }
+
+
+
+
+
+
+    .section-method {
+        text-align: center;
+        background-color: #fff;
+        border: 4px solid;
+        border-radius: 20px;
+        margin: 80px 50px;
+
+        margin-bottom: -80px;
+        padding: 5px 20px;
+
+
+        font-size: 35px;
+        line-height: 60px;
+    }
+
+    .ul-position {
+    display: flex;
+    }
+
+
+
+ 
+    .master-class-div {
+        margin: 0px 50px;
+        background-color: #eee;
+        text-align: start;
+
+        font-size: 35px;
+        line-height: 60px;
+
+        padding: 0px 40px;
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+  
+    .who-div {
+        margin: 0px 100px;
+        padding: 10px 70px;
+
+    }
+
+    .who-div h3 {
+        text-align: center;
+        font-size: 45px;
+        line-height: 80px;
+    }
+
+    .face img {
+        align-content: center;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: 30px;
+        margin-bottom: 30px;
+
+        width: 550px;
+    }
+
+
+
+
+    .free-webinar-footer {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .red-footer {
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    .every-day-footer {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .main-footer {
+        text-align: center;
+    
+        background-image: url(../img/footer-background-mobile.jpg);
+        background-repeat: repeat;
+        -moz-background-size: 100%; /* Firefox 3.6+ */
+        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100%; /* Opera 9.6+ */
+        background-size: 100%; /* Современные браузеры */
+    
+    }
+
+}
+
+
+
+
+/*              MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE*/
+
+
+
+
+@media (max-width: 790px) {
+
+    
+.background-color {
+    background: url(../img/background-mobile.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+    .free-webinar {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .red-header {
+        font-size: 70px;
+        line-height: 80px;
+        text-align: center;
+        
+        margin-top: 40px;
+    }
+
+    .every-day-header {
+        font-size: 40px;
+        line-height: 80px;
+
+    }
+
+
+   
+    .button {
+        color: #fff;
+        background-color: rgb(255, 72, 0);
+        border: 0;
+
+        padding: 30px 20px;
+
+        font-size: 35px;
+        border-radius: 5px;
+
+        
+    }
+
+    .button:hover {
+        background-color: rgb(158, 45, 0);
+    }
+
+    .button2 {
+        margin-left: 20px;
+        
+    }
+
+
+
+
+
+
+    .section-method {
+        text-align: center;
+        background-color: #fff;
+        border: 4px solid;
+        border-radius: 20px;
+        margin: 80px 10px;
+
+        margin-bottom: -80px;
+        padding: 5px 20px;
+
+
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .method-list img {
+        align-content: center;
+        margin-left: 20px;
+    }
+
+    .ul-position {
+    display: flex;
+    }
+
+    .method-item1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .method-item1 img {
+       height: 150px;
+    }
+
+    .method-item2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .method-item2 img {
+        height: 150px;
+    }
+
+    .method-item3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .method-item3 img {
+        height: 150px;
+    }
+
+
+ 
+    .master-class-div {
+        margin: 0px 20px;
+        background-color: #eee;
+        text-align: start;
+
+        font-size: 40px;
+        line-height: 60px;
+
+        padding: 0px 40px;
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+  
+    .who-div {
+        margin: 0px 10px;
+        padding: 10px 70px;
+
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .who-item1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .who-item1 img {
+        margin-left: 150px;
+        width: 150px;
+    }
+
+    .who-item2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .who-item2 img {
+        margin-left: 10px;
+        height: 350px;
+    }
+
+    .who-item3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .who-item3 img {
+        margin-left: 150px;
+        width: 150px;
+    }
+
+    .who-div h3 {
+        text-align: center;
+        font-size: 45px;
+        line-height: 80px;
+    }
+
+    .cool-marketer {
+        font-size: 28px;
+    }
+
+    .face img {
+        align-content: center;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: 30px;
+        margin-bottom: 30px;
+
+        width: 590px;
+    }
+
+
+
+
+    .free-webinar-footer {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .red-footer {
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    .every-day-footer {
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+
+    .main-footer {
+        text-align: center;
+    
+        background-image: url(../img/footer-background-mobile.jpg);
+        background-repeat: repeat;
+        -moz-background-size: 100%; /* Firefox 3.6+ */
+        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100%; /* Opera 9.6+ */
+        background-size: 100%; /* Современные браузеры */
+    
+    }
+
+    .button-footer {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*  @bg-darkgrey: #292929;
+    @bg-lightgrey: #f8f5f2;
+    @tablet-width: 768px;
+    @desktop-width: 1200px;
+*/
